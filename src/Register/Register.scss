@@ -1,0 +1,31 @@
+@import '~bootstrap';
+
+.Register {
+
+  &__title,
+  &__subtitle {
+    color: #333333;
+  }
+
+  &__subtitle {
+    @extend .h4;
+  }
+
+  &__form__error {
+    @extend .text-danger;
+    margin-left: 14px;
+  }
+
+  &__intro-image {
+    max-height: 600px;
+    max-width: 90%;
+  }
+
+  &__submit-btn,
+  &__submit-btn:active,
+  &__submit-btn:focus {
+    background: #f54555;
+    border-color: #f54555;
+  }
+
+}

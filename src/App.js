@@ -15,7 +15,7 @@ function App() {
     <Router className="App">
         <Header />
 
-        <div className="container mt-3">
+        <div className="container mt-4">
             <Switch>
                 <Route path="/register">
                     <Register />
