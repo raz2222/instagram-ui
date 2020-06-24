@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Register from './Register/Register';
 import Login from './Login/Login';
+import PostCreate from './PostCreate/PostCreate';
 
 function App() {
 
@@ -22,6 +23,9 @@ function App() {
                 </Route>
                 <Route path="/login">
                     <Login />
+                </Route>
+                <Route path="/post/create">
+                    <PostCreate />
                 </Route>
                 <Route path="/">
                     Home!

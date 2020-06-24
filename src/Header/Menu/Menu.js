@@ -10,6 +10,11 @@ function Menu() {
 					<span className="sr-only">(current)</span>
 				</Link>
 			</li>
+			<li className="nav-item">
+				<Link className="nav-link" to="/post/create">
+					Create Post
+				</Link>
+			</li>
 		</ul>
 	);
 }
