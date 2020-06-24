@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { RegisterSchema } from './register.schema';
 import { useHistory } from 'react-router-dom';
+import config from '../config/index';
 import './Register.scss';
 
 function Register() {
@@ -9,7 +10,7 @@ function Register() {
 	const [showSuccess, setSuccess] = useState(false);
 
 	const submit = async (values) => {
-		const res = await fetch('http://localhost:4000/users', {
+		const res = await fetch(config.apiUrl + '/users', {
 			method: 'PUT',
 			headers: {
 				'Content-Type': 'application/json'
