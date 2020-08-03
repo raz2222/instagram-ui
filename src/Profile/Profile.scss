@@ -1,0 +1,16 @@
+body {
+  height: 100vh;
+  overflow: scroll;
+}
+.Profile .loader {
+  padding-top: 40px;
+  margin: 0 auto;
+  height: 100vh;
+
+  svg {
+    margin: 0 8px;
+  }
+}
+.col-12 {
+  padding: 10px 10px 10px 10px;
+}

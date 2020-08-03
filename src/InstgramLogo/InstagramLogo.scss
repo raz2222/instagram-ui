@@ -1,44 +1,4 @@
 @import "~bootstrap";
-
-.Login {
-  &__title,
-  &__subtitle {
-    color: #333333;
-  }
-
-  &__subtitle {
-    @extend .h4;
-  }
-
-  &__form__error {
-    @extend .text-danger;
-    margin-left: 14px;
-  }
-
-  &__intro-image {
-    max-height: 600px;
-    max-width: 90%;
-  }
-
-  &__submit-btn,
-  &__submit-btn:active,
-  &__submit-btn:focus {
-    @extend .btn;
-    @extend .btn-dark;
-    @extend .w-100;
-    background: #f1f3f6;
-    box-shadow: inset 0.007em 0.007em 0.034em rgba(#fff, 0.3),
-      0.0503em 0.0503em 0.135em rgba(#3754aa, 0.1),
-      -0.0503em -0.0503em 0.135em #fff;
-    border: 0.004em solid rgba(#fff, 0.3);
-    color: #7b69ee;
-  }
-
-  &__register-link,
-  &__register-link:hover {
-    color: blue;
-  }
-}
 .shape {
   position: relative;
   font-size: 150px;
@@ -88,6 +48,15 @@
     border: 0.004em solid rgba(#fff, 0.3);
   }
 }
-.insta {
-  background-image: url(/photos/Instagram-name-logo-clipart-PNG.png);
+
+h1 {
+  text-transform: uppercase;
+  font-size: 200px;
+  letter-spacing: 5px;
+  color: rgb(136, 217, 231);
+  text-shadow: 0 -10px 30px rgba(255, 255, 255, 1),
+    0 10px 30px rgba(0, 0, 0, 0.15);
+  margin: 0;
+  font-weight: bolder;
+  font-family: "Oleo Script", cursive;
 }
